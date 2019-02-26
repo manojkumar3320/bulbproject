@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>bulb project</title>
+    </head>
+    <style>
+    .wrapper{
+        margin-top: 100px;
+        margin-left: 500px;
+    }
+    </style>
+    <body>
+        <div class="wrapper">
+            <div id="div-traingle"></div>
+            <div id="div-rectangle"></div>
+
+            <button onclick="iosys()">bulb-on</button>
+            <button onclick="bootcamp()">click-off</button>
+        </div>
+    </body>
+
+        <script>
+            var traingle = document.getElementById('div-traingle');
+            function iosys(){
+                traingle.innerHTML = "<img src='bulb-on.png'>";
+            }
+           
+            function bootcamp(){
+                
+                traingle.innerHTML = "<img src='bulb-off.png'>";
+            }
+        </script>
+        
+        </html>
